@@ -10,9 +10,9 @@ Zasnovan je na [radu][hybrid-paper].
 U Jupyter svesci [`image_compression.ipynb`](image_compression.ipynb) implementirane su četiri metode kompresije:
 
 * **JPEG-DCT** - diskretna kosinusna transformacija
-* **SVD**: - kompresija slike zasnovana na singularnoj dekompoziciji,
-* **DWT**: dekompozicija zasnovana na talasićima
-* **SVD+DWT hibrid**: SVD aproksimacija praćena DWT kompresijom, po uzoru na rad iz literature.
+* **SVD** - kompresija slike zasnovana na singularnoj dekompoziciji,
+* **DWT** - dekompozicija zasnovana na talasićima
+* **SVD+DWT hibrid** - SVD aproksimacija praćena DWT kompresijom, po uzoru na rad iz literature.
 
 Kvalitet rekonstrukcije meri se metrikama PSNR i SSIM, a metode se porede krivama zavisnosti kvaliteta od faktora kompresije na slikama različitih karakteristika.
 
